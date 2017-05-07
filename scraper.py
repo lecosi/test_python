@@ -32,7 +32,7 @@ def scraper(url, tag):
 			dupli_words[item] = dict_counter_words[item]
 	if dupli_words: #validación si existen palabras repetidas
 		print('*'*50)
-		print(pd.Series(dupli_words))
+		print(pd.Series(dupli_words)) #usar pandas para mostrar la data con la herramientas SERIES
 		print('*'*50)
 	else:
 		print("en el TAG ", tag, " no se encontraron palabras repetidas!!")
