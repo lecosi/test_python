@@ -7,4 +7,4 @@
 
 --> Digitar la URL SIN " HTTP:// " ejemplo: www.facebook.com
 
---> Digitar TAG a buscar ejemplo: h1, div, etc.
+--> Digitar TAG a buscar EN MINUSCULA ejemplo: h1, div, etc.
